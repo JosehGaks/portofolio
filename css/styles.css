@@ -1,17 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body{
-  text-decoration: none;
-  font family: 'tangerine' serif;
-  color: white;
+  font family: sans-serif;
   background-color: black;
   margin:0;
   padding:0;
 }
 .head ul{
-  text-align: right;
-  float:right;
+  margin: -10px;
+  text-decoration: none;
+  list-style-type: none;
 }
-.head ul li{
-  border-color: #ddd;
-  margin: left;
+.head h1{
+  color: white;
+  margin: 12px;
+
+}
+.head ul li a{
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  background-color: white;
+  float: right;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  border: 5px solid #ddd;
+  margin: 12px;
 }
