@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body{
+  text-decoration: none;
+  font family: 'tangerine' serif;
   color: white;
   background-color: black;
   margin:0;
   padding:0;
+}
+.head ul{
+  text-align: right;
+  float:right;
+}
+.head ul li{
+  border-color: #ddd;
+  margin: left;
 }
