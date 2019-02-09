@@ -2,6 +2,7 @@ body{
 
   font family: sans-serif;
   background-image: url(../images/shoe.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   margin:0;
   padding:0;
@@ -47,23 +48,28 @@ img{
   margin-right: auto;
 }
 #bestgames{
-  border:4px solid #ddd;
-  background-color: #ddd;
-  border-radius: 12px;
+  border:4px solid #EDE1DF;
+  background-color: #EDE1DF;
+  border-radius: 20px;
 
 }
 #food{
   margin: auto;
   margin-top: 15%;
-  border: 4px solid #ddd;
-  background-color: #ddd;
-  border-radius: 12px;
+  border: 4px solid #EDE1DF;
+  background-color: #EDE1DF;
+  border-radius: 20px;
 
 }
 #footer{
+  border: 4px solid #EDE1DF;
+  background-color: #EDE1DF;
   color: white;
   text-align: right;
   font-size: 50px;
   font-family: monospace;
 
+}
+.me img{
+  border-radius: 30px;
 }
