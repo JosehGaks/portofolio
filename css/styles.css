@@ -1,27 +1,35 @@
 body{
+
   font family: sans-serif;
-  background-color: black;
+  background-image: url(../images/back.jpg);
+  background-repeat: no-repeat;
   margin:0;
   padding:0;
 }
 .head ul{
+  height: rgba(255, 0, 0, 0.5);
+  width: rgba(255, 0, 0, 0.5);
   margin: -10px;
   text-decoration: none;
   list-style-type: none;
 }
-.head h1{
-  color: white;
-  margin: 12px;
-
-}
 .head ul li a{
   border-radius: 10px 10px 10px 10px;
-  color: white;
+  color: black;
   background-color: white;
   float: right;
   padding: 12px;
   text-decoration: none;
-  color: white;
   border: 5px solid #ddd;
   margin: 12px;
+}
+hr{
+  color: #ddd;
+}
+.me{
+  margin: auto;
+  margin-top: 20%;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
 }
