@@ -67,5 +67,10 @@ img{
 }
 #projects ul {
   list-style-type: upper-latin;
+}
+#projects ul li {
   text-align: center;
+}
+#content p4 {
+  background-image: url(../images/c.jpg);
 }
