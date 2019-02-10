@@ -7,22 +7,9 @@ body{
   margin:0;
   padding:0;
 }
-.head ul{
-  height: rgba(255, 0, 0, 0.5);
-  width: rgba(255, 0, 0, 0.5);
-  margin: -10px;
-  text-decoration: none;
-  list-style-type: none;
-}
-.head ul li a{
-  border-radius: 10px 10px 10px 10px;
-  color: black;
-  background-color: white;
-  float: right;
-  padding: 12px;
-  text-decoration: none;
-  border: 5px solid #ddd;
-  margin: 12px;
+.head{
+  margin-left: auto;
+  margin-right: auto;
 }
 hr{
   color: #ddd;
@@ -71,4 +58,14 @@ img{
 }
 #myimage img{
   border-radius: 300px;
+}
+#projects{
+  font-family: sans-serif;
+  color: white;
+  height: 59%;
+  text-align: center;
+}
+#projects ul {
+  list-style-type: upper-latin;
+  text-align: center;
 }
